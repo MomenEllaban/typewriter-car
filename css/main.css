@@ -1,0 +1,62 @@
+.template6_v1 {
+  height: 100%;
+}
+.bus{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.itemContainer{
+  height: 100%;
+}
+.item{
+  height: 100%;
+}
+.textover {
+  width: 40%;
+  padding: 10px;
+  color: white;
+  font-size: 2.5rem;
+  text-align: right;
+  position: absolute;
+  bottom: 46%;
+  right: 15%;
+  height: 7rem;
+}
+.pageContent {
+  position: relative;
+  padding: 0px;
+  z-index: 1;
+  border: 5px solid #009eda;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.page_content {
+  width: 1280px;
+  height: 960px;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transition: all 500ms ease-in-out !important;
+  transition: all 500ms ease-in-out !important;
+  position: absolute;
+}
+.noPadding {
+  padding: 0 !important;
+}
+.pageBg {
+  position: absolute;
+  left: 0;
+  top: 15px;
+}
+.carousel-inner {
+  height: 100%;
+}
+#container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
